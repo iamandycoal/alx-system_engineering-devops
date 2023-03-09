@@ -1,2 +1,2 @@
 #!/bin/bash
-"Files in current directory:ls -la" "Files in parent directory:ls -la .." "Files in /boot directory: ls -la /boot"
+"ls -la" "ls -la .." "ls -la /boot"
