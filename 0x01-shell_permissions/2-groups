@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Groups for current user: $(groups)"
+groups $(id -un)
