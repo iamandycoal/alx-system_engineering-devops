@@ -1,2 +1,2 @@
 #!/bin/bash/
-(IFS=$'\n'; printf '%s,' $(find . -maxdepth 1 -printf '%M %y %P\n' | sort -V | sed 's/^[^ ]* [^ ]* /&"/; s/$/"/; s/ $/\//; /^\.\/\.\(\/\|\)$/d'))
+ls -C
